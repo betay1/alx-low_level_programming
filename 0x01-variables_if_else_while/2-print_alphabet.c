@@ -8,13 +8,15 @@
 int main(void)
 
 {
-char n;
 
-for (n = 'a'; n <= 'z'; n++);
-putchar(n);
+char i;
+
+for (i = 'a'; i <= 'z'; i++)
+putchar(i);
 putchar('\n');
 
 return (0);
 
 }
+
 
