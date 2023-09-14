@@ -3,7 +3,7 @@
 
 /**
  * main - Prints the first 98 fibonacci number, starting with
- * Return: (0)
+ * Return: (success)
  */
 
 
