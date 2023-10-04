@@ -8,7 +8,8 @@
  * Description: creat array of size size and assign char c
  * Return: pointer to array, NULL if fail
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
+
 {
 	size_t i;
 	char *ptr;
@@ -27,5 +28,4 @@ for (i = 0; i < size; i++)
 	ptr[i] = c;
 }
 return (ptr);
-
-
+}
