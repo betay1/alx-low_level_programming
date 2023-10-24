@@ -5,7 +5,7 @@
  * @head: head
  * Return:
  */
-void free_listp2(listp_t **head)
+void free_listp(listp_t **head)
 {
 	listp_t *temp;
 	listp_t *curr;
@@ -54,7 +54,7 @@ size_t free_listint_safe(listint_t **h)
 			if (*h == add->p)
 			{
 				*h = NULL;
-				free_listp2(&hptr);
+				free_listp(&hptr);
 				return (nnodes);
 			}
 		}
@@ -66,6 +66,6 @@ size_t free_listint_safe(listint_t **h)
 	}
 
 	*h = NULL;
-	free_listp2(&hptr);
+	free_listp(&hptr);
 	return (nnodes);
 }
