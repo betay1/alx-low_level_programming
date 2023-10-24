@@ -1,10 +1,9 @@
 #include "lists.h"
 
 /**
- * free_listp2 - frees a linked list
- * @head: head of a list.
- *
- * Return: no return.
+ * free_listp2 - frees a link
+ * @head: head
+ * Return:
  */
 void free_listp2(listp_t **head)
 {
@@ -24,15 +23,11 @@ void free_listp2(listp_t **head)
 }
 
 /**
- * free_listint_safe - frees a linked list.
- * @h: head of a list.
- *
+ * free_listint_safe - frees a link
+ * @h: head
  * Return: size of the list that was freed.
  */
 size_t free_listint_safe(listint_t **h)
-
-void free_listp2(listp_t **head)
-
 {
 	size_t nnodes = 0;
 	listp_t *hptr, *new, *add;
