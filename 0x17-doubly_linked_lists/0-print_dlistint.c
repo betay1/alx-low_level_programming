@@ -3,6 +3,7 @@
 /**
  * print_dlistint - prints all dlistint_t list
  * @h: head
+ *
  * return: no. of nodes
  */
 
@@ -24,5 +25,6 @@ size_t print_dlistint(const dlistint_t *h)
 		count++;
 		h = h->next;
 	}
+
 	return (count);
 }
