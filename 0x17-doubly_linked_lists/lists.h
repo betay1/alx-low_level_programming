@@ -1,4 +1,4 @@
-#ifndef _LISTS_
+#ifndef _LISTS__
 #define _LISTS_
 
 #include <stdio.h>
