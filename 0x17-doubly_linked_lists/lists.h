@@ -3,17 +3,18 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * struct dlistint_s - doubly linked list
  * @n: int
  * @previous: pts. to the previous node
  * @next: pts. to the next node
  */
-typeof struct dlistint_s
+typedef struct dlistint_s
 {
 	int n;
 	struct dlistint_s *prev;
-	truct dlistint_s *next;
+	struct dlistint_s *next;
 } dlistint_t;
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
