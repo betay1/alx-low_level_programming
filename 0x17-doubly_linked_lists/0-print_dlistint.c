@@ -5,18 +5,22 @@
  * @h: head
  * return: no. of nodes
  */
-size_t print_dlistint(const dlistint_t *h);
+size_t print_dlistint(const dlistint_t *h)
 {
-        int count;
-        count = 0;
-        if (h == Null)
-                return (count);
-        while (h->prev != NULL)
-                h = h->prev;
-        while (h != NULL)
-        {
-                printf("%d/n", h->n);
-                count++;
-                h = h->next;
-        }
-        return (count);
+	int count;
+
+	count = 0;
+
+	if (h == Null)
+		return (count);
+
+	while (h->prev != NULL)
+		h = h->prev;
+
+	while (h != NULL)
+	{
+		printf("%d\n", h->n);
+		count++;
+		h = h->next;
+	}
+	return (count);
