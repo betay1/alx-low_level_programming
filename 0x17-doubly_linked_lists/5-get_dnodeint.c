@@ -2,6 +2,7 @@
 
 /**
  * get_dnodeint_at_index - return nth node
+ * nth node of dlistint_t linked list
  *
  * @head: head of list
  * @index: index of nth node
