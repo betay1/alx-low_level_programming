@@ -24,7 +24,7 @@ int main(void)
 	add_dnodeint_end(&head, 1024);
 	sum = sum_dlistint(head);
 	printf("sum = %d\n", sum);
-	free_dlistint(head);	
+	free_dlistint(head);
 	head = NULL;
 	return (EXIT_SUCCESS);
 }
