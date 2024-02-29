@@ -1,4 +1,4 @@
-n
+#!/user/bin/python3
 """
 island_perimeter = __import__('5-island_perimeter').island_perimeter
 
